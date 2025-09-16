@@ -1,10 +1,24 @@
-AIM:- To perform matrix operations in cpp
+AIM:- 
+To write and execute C++ programs for:
+
+Addition of two matrices
+Multiplication of two matrices
+Diagonal addition of a square matrix
+Transpose of a matrix
+Comparing elements of the first row with the second row in a matrix
+
 THEORY:-
 1.Matrix addition is a basic operation where two matrices of the same order (same number of rows and columns) are added by adding their corresponding elements.
+
 2.Compare each element of the first row with the corresponding element in the second row
+
 3.Diagonal elements in a square matrix are those where row index = column index (𝑖=𝑗). The sum is the sum of these elements.
-4.Multiplication of Two Matrices Matrix multiplication involves multiplying rows of the first matrix with columns of the second matrix. The number of columns in the first matrix must equal the number of rows in the second matrix.
+
+4.Multiplication of Two Matrices Matrix multiplication involves multiplying rows of the first matrix with columns of the second matrix. The number of columns in the first 
+matrix must equal the number of rows in the second matrix.
+
 5.Transpose of a matrix 𝐴 is obtained by swapping rows with columns
+
 ALGORITHMS:-
 1. ADDITION OF TWO NUMBERS
 Input: Read the elements of matrix A.
@@ -38,4 +52,11 @@ Create a new matrix 𝑇
 Assign T[i][j]=A[j][i].
 Display the transpose matrix.
 
-CONCLUSION:- we learnt how to implement matrix operations is c++
+CONCLUSION:- 
+By implementing these programs, we understand:
+
+How to perform basic operations on matrices using nested loops.
+The conditions required for matrix addition and multiplication.
+How to work with specific elements like diagonals and transposes.
+How to compare rows in a matrix.
+These operations form the foundation for more advanced topics in numerical methods, computer graphics, and data processing.
